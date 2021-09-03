@@ -1,15 +1,32 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-image: linear-gradient( slategray, red);
+	background-color:black;
 }
+
+/* Hyperlink Controls */
 
 a {
-	color:red;
+	color: black;
+	
 }
 
+a:hover {
+	background-color:white;
+
+   }
+
+/* General */
+
+img {
+	width: 100%;
+
+}
+
+/* Index */
+
 div {
-	color:blueviolet;
+	color:chocolate;
 }
 
 div.Homepage {
@@ -62,4 +79,330 @@ div.Project2 {
 div.Bitmoji {
 	padding-left: 300px;
 	align-content: center;
+}
+
+/* Start Rat */
+
+div.thechoice {
+	padding: 30px;
+	text-align: left;
+	width: 800px;
+	margin-left: 200px;
+	margin-top: 100px;
+
+}
+
+div.wheredoyoustart {
+
+	color:crimson;
+	margin-left: 150px;
+	margin-top: 100px;
+	text-align: right;
+	margin-right: 300px;
+
+}
+
+div.to_star {
+
+	width: 50px;
+	height: 50px;
+	background-color:black;
+	color:black;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border:3px solid black;
+	text-align: center;
+	margin-left: 800px;
+	margin-top: 550px;
+
+}
+
+div.to_star:hover {
+
+		background-color:red;
+
+}
+
+
+/* Rat Head */
+
+
+
+/* Rat Tangle */
+
+
+
+/* Rat  Delve*/
+
+
+
+/* Rat Food */
+
+body.ratfood {
+	background-color: chocolate;
+
+}
+
+div.meal {
+	width: 60%;
+
+}
+
+div.bouncing {
+	width: 40%;
+
+}
+
+/* Rat Dive */
+
+
+
+
+/* Star */
+
+div.when {
+margin-left: 200px;
+
+}
+
+.when {
+	cursor:pointer;
+	display:inline-block;
+
+}
+
+.date1 {
+display:none
+
+} 
+
+.date1.show {
+	cursor:pointer;
+	text-decoration:underline;
+	display:inline-block;
+}
+ 
+.date2 {
+	display:none;
+}
+
+.date2.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.date3 {
+	display:none;
+}
+
+.date3.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.date4 {
+	display: none;
+
+}
+
+.date4.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+
+}
+
+.date5 {
+	display: none;
+
+}
+
+.date5.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+
+}
+
+.date6 {
+	display: none;
+
+}
+
+.date6.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+
+}
+
+.date7 {
+	display: none;
+
+}
+
+.date7.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+
+}
+
+.date8 {
+	display: none;
+
+}
+
+.date8.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+
+}
+
+div.stardates {
+	margin-left: 250px;
+
+}
+
+.star2link {
+	display:none
+}
+
+.star2link.show {
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:underline;
+	width: 50px;
+	height: 50px;
+	background-color:black;
+	color:black;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border:3px solid black;
+	text-align: center;
+	margin-left: 260px;
+}
+
+div.star2link.show:hover {
+
+		background-color:red;
+
+}
+
+/* Star 2*/
+
+
+
+
+/* Star 3*/
+
+
+
+
+/* Rat Quote 1 */
+
+div.colquote1 {
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+div.quote1 {
+
+	text-align: right;
+	width: 30%;
+
+}
+
+div.quote {
+
+	margin-bottom: 800px;
+	border:3px solid chocolate;
+	padding: 20px;
+
+}
+
+div.doublehelixtextart {
+
+	text-align: center;
+	width: 10%;
+
+}
+
+div.ratkingsketch {
+
+	opacity: 0;
+	width: 50%;
+	margin-right: 100px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+div.ratkingsketch:hover {
+
+	opacity: 1;
+
+}
+
+/* Rat Quote 2 */
+
+
+div.quote2 {
+
+	text-align: right;
+	width: 30%;
+
+}
+
+div.quote {
+
+	margin-bottom: 800px;
+	border:3px solid chocolate;
+	padding: 20px;
+
+}
+
+div.doublehelixtextart {
+
+	text-align: center;
+	width: 10%;
+
+}
+
+div.quote2picture {
+	opacity: 0;
+	width: 50%;
+	margin-left: auto;
+
+}
+
+div.quote2picture:hover {
+
+	opacity: 1;
+
+}
+
+
+
+/* Rat Report */
+
+div.thereport {
+	width: 40%;
+}
+
+
+div.reporthelix {
+	text-align: center;
+	width: 10%;
+}
+
+div.reportpictures {
+	width:50%;
+	margin-bottom: 800px;
 }
