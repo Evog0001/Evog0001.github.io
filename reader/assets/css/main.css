@@ -1,0 +1,312 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: aliceblue;
+	background-size: 100px 100px;
+	background-image: radial-gradient(
+		#F2F3F4 15%,
+		transparent),
+	linear-gradient(
+	45deg,
+	transparent 48%, #D3D3D3 48%,
+	#a8a8a8 52%, transparent 52%
+	),
+	
+	linear-gradient(
+		135deg,
+		transparent 48%, #D3D3D3 48%,
+		#a8a8a8 52%, transparent 52%
+		);
+
+}
+
+a {
+	color:purple;
+}
+
+/* Main Stuff */
+
+.main {
+	display: flex;
+	width: 4000px;
+	overflow: scroll;  
+}
+
+.title {
+	font-size:10vw;
+	text-align:center;
+
+}
+
+.endmatter {
+font: size 16px;
+
+}
+
+.content {
+	text-indent:32px;
+
+}
+
+.content img {
+	width:100%;
+
+}
+
+.content p {
+	text-indent:32px;
+
+}
+
+/* Collum Controls */
+
+.col1 {
+	width:20%;
+	overflow: scroll;
+}
+
+.col2 {
+	width:20%;
+	overflow: scroll;
+}
+
+.col3 {
+	width:20%;
+	overflow: scroll;
+}
+
+.col4{
+	width:40%;
+	overflow: scroll;
+}
+
+/* Menu Button */
+
+.menu {
+	height: 100vh;
+	width: 80%;
+	background-color: white;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	margin-right: -80%;
+	padding: 40px;
+	box-shadow: -5px 0px 10px 2px gray;
+	transition: 1s;
+	overflow: scroll;
+  
+  }
+  
+  .menu.open {
+	margin-right: -0;
+	transition: 1s;
+	background-color: #D3D3D3;
+	background-image: radial-gradient(
+		#F2F3F4 15%,
+		transparent),
+	linear-gradient(
+	45deg,
+	transparent 48%, #D3D3D3 48%,
+	#a8a8a8 52%, transparent 52%
+	),
+	
+	linear-gradient(
+		135deg,
+		transparent 48%, #D3D3D3 48%,
+		#a8a8a8 52%, transparent 52%
+		);
+	padding: 0;
+
+
+  }
+  
+  .nav {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 2;
+  }
+  
+  .button {
+	cursor: pointer;
+	background-color:rgb(145, 145, 145);
+	padding: 20px;
+	box-shadow: -5px 0px 10px 2px gray;
+	font-family:fantasy;
+
+  }
+  
+  /* Buttons */
+
+  div.when {
+	margin-left: 200px;
+	
+	}
+	
+	.when {
+		cursor:pointer;
+		display:inline-block;
+	
+	}
+	
+	.date1 {
+	display:none
+	
+	} 
+	
+	.date1.show {
+		cursor:pointer;
+		text-decoration:underline;
+		display:inline-block;
+	}
+	 
+	.date2 {
+		display:none;
+	}
+	
+	.date2.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	
+	.date3 {
+		display:none;
+	}
+	
+	.date3.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	
+	.date4 {
+		display: none;
+	
+	}
+	
+	.date4.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.date5 {
+		display: none;
+	
+	}
+	
+	.date5.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.date6 {
+		display: none;
+	
+	}
+	
+	.date6.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.date7 {
+		display: none;
+	
+	}
+	
+	.date7.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.date8 {
+		display: none;
+	
+	}
+	
+	.date8.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	div.stardates {
+		margin-left: 250px;
+	
+	}
+	
+	.star2link {
+		display:none
+	}
+	
+	.star2link.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+		width: 50px;
+		height: 50px;
+		background-color:black;
+		color:black;
+		border-radius: 75px;
+		-webkit-border-radius: 75px;
+		-moz-border-radius: 75px;
+		border:3px solid black;
+		text-align: center;
+		margin-left: 260px;
+	}
+	
+	div.star2link.show:hover {
+	
+			background-color:red;
+	
+	}
+	
+
+
+  /* Text Visible and Invisible */
+
+div.spiderweb{
+	display: none;
+
+}
+
+div.spiderweb.show {
+	display:inline-block;
+}
+
+div.logo1 {
+	display: none;
+
+}
+
+div.logo1.show {
+	display:inline-block;
+}
+
+div.trafficsign {
+	display: none;
+
+}
+
+div.trafficsign.show {
+	display:inline-block;
+}
+
+div.famouslogo {
+	display: none;
+
+}
+
+div.famouslogo.show {
+	display:inline-block;
+}
