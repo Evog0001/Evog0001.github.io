@@ -79,15 +79,16 @@ $( document ).ready(function() {
 
 /* ---- */
 
-
-var b = document.querySelector("#movingbutton");
-b.addEventListener("click",change);
-
-function change()
-{
-let i = Math.floor(Math.random()*500)+1;
-let j = Math.floor(Math.random()*500)+1;
-console.log('here' , i ,j , b.style.left , b.style.top);
-    b.style.left = i+'px';
-    b.style.top = j + "px";
-}
+$('.new_pos').click(function() {
+  var bodyWidth = document.body.clientWidth
+  var bodyHeight = document.body.clientHeight;
+  var randPosX = Math.floor((Math.random()*bodyWidth));
+  var randPosY = Math.floor((Math.random()*bodyHeight));
+  var posLog = document.getElementById('pos_log');
+  var posXY = 'x: ' + randPosX + '<br />' + 'y: ' + randPosY;
+  
+  $('#rand_pos').css('left', randPosX);
+  $('#rand_pos').css('top', randPosY);
+  
+  posLog.innerHTML = posXY
+});
