@@ -271,7 +271,84 @@ font: size 16px;
 	
 	}
 	
+/*  Buttonssssss  */
 
+	.spiderbutton {
+		display: none;
+	
+	}
+	
+	.spiderbutton.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.logo1button {
+		display: none;
+	
+	}
+	
+	.logo1button.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.trafficsignbutton {
+		display: none;
+	
+	}
+	
+	.trafficsignbutton.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	.famouslogobutton {
+		display: none;
+	
+	}
+	
+	.famouslogobutton.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+
+	.logodesignbutton {
+		display: none;
+	
+	}
+	
+	.logodesignbutton.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+
+
+	#movingbutton{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		   position: absolute;
+		left : 20px;
+	top : 50px;
+	}
+	body{
+	  width : 100%;
+	}
+	.ctr{
+	  width : 100%;
+	height : 100%;
+	}
 
   /* Text Visible and Invisible */
 
