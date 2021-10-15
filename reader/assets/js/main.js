@@ -15,6 +15,16 @@ $( document ).ready(function() {
    
   $('.when').click(function() {
       $('.date1').addClass('show');
+
+      
+    });
+
+
+      $('.date').click(function() {
+        $(this).removeClass('show');
+        $(this).next().addClass('show');
+        
+    
   
   });
       $('.date1').click(function() {
