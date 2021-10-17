@@ -17,11 +17,17 @@ body {
 		transparent 48%, #D3D3D3 48%,
 		#a8a8a8 52%, transparent 52%
 		);
+	
 
 }
 
+/*animating background*/
+
+
+
 a {
 	color:purple;
+	font: size 40px;
 }
 
 /* Main Stuff */
@@ -60,22 +66,7 @@ font: size 16px;
 
 /* Collum Controls */
 
-.col1 {
 
-}
-
-
-.col2 {
-
-}
-
-.col3 {
-
-}
-
-.col4{
-
-}
 
 /* Menu Button */
 
@@ -112,7 +103,6 @@ font: size 16px;
 		transparent 48%, #D3D3D3 48%,
 		#a8a8a8 52%, transparent 52%
 		);
-	padding: 0;
 
 
   }
@@ -140,7 +130,9 @@ font: size 16px;
 	outline: 20px;
 	outline-width: 20px;
 	outline-color: rgb(0, 0, 0);
-	padding: 20px;
+	padding: 50px;
+	text-overflow: scolling;
+	
 
   }
 
