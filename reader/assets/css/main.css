@@ -61,23 +61,20 @@ font: size 16px;
 /* Collum Controls */
 
 .col1 {
-	width:20%;
-	overflow: scroll;
+
 }
 
+
 .col2 {
-	width:20%;
-	overflow: scroll;
+
 }
 
 .col3 {
-	width:20%;
-	overflow: scroll;
+
 }
 
 .col4{
-	width:40%;
-	overflow: scroll;
+
 }
 
 /* Menu Button */
@@ -136,6 +133,17 @@ font: size 16px;
 
   }
   
+
+  /* Menu Text*/
+
+  div.link {
+	outline: 20px;
+	outline-width: 20px;
+	outline-color: rgb(0, 0, 0);
+	padding: 20px;
+
+  }
+
   /* Buttons */
 
   div.when {
@@ -148,9 +156,14 @@ font: size 16px;
 		display:inline-block;
 	
 	}
+
+	.when.hide {
+		display:none;
+	
+	}
 	
 	.date1 {
-	display:none
+		display:none
 	
 	} 
 	
@@ -273,6 +286,11 @@ font: size 16px;
 	
 /*  Buttonssssss  */
 
+	div.buttons {
+		margin-left: 250px;
+
+	}
+
 	.spiderbutton {
 		display: none;
 	
@@ -343,6 +361,7 @@ div.spiderweb{
 
 div.spiderweb.show {
 	display:inline-block;
+	
 }
 
 div.logo1 {

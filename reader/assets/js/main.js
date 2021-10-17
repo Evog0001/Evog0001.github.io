@@ -15,6 +15,7 @@ $( document ).ready(function() {
    
   $('.when').click(function() {
       $('.date1').addClass('show');
+      $(this).addClass('hide');
 
       
     });
@@ -66,29 +67,32 @@ $( document ).ready(function() {
 
   });
                                   $('.date8').click(function() {
-                                      $('.date1').addClass('show');
                                       $('.spiderweb').addClass('show');
+                                      $('.logo1button').addClass('show');
+                                      $('.trafficsignbutton').addClass('show');
+                                      $('.famouslogobutton').addClass('show');
                                       $('.date8').removeClass('show');
 
   });
 
+  $('.logo1button').click(function() {
+    $('logo1').addClass('show');
+  
+}); 
+
+  $('.trafficsignbutton').click(function() {
+    $('trafficsign').addClass('show');
+
+}); 
+
+
+$('.famouslogobutton').click(function() {
+  $('famouslogo').addClass('show');
+
+}); 
 
 
 });
 
 
 /* ---- */
-
-$('.new_pos').click(function() {
-  var bodyWidth = document.body.clientWidth
-  var bodyHeight = document.body.clientHeight;
-  var randPosX = Math.floor((Math.random()*bodyWidth));
-  var randPosY = Math.floor((Math.random()*bodyHeight));
-  var posLog = document.getElementById('pos_log');
-  var posXY = 'x: ' + randPosX + '<br />' + 'y: ' + randPosY;
-  
-  $('#rand_pos').css('left', randPosX);
-  $('#rand_pos').css('top', randPosY);
-  
-  posLog.innerHTML = posXY
-});
