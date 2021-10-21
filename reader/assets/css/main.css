@@ -127,11 +127,9 @@ font: size 16px;
   /* Menu Text*/
 
   div.link {
-	outline: 20px;
-	outline-width: 20px;
-	outline-color: rgb(0, 0, 0);
 	padding: 50px;
 	text-overflow: scolling;
+
 	
 
   }
@@ -343,6 +341,45 @@ font: size 16px;
 	
 	}
 
+	.mapsymbolsbutton {
+		display: none;
+	}
+
+
+	.mapsymbolsbutton.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+
+	.purposelogobutton {
+		display: none;
+	}
+
+
+	.purposelogobutton.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+
+
+	.applelogo {
+		display: none;
+	}
+
+
+	.applelogo.show {
+		display:inline-block;
+		cursor:pointer;
+		text-decoration:underline;
+	
+	}
+	
+	
+
 
   /* Text Visible and Invisible */
 
@@ -353,6 +390,8 @@ div.spiderweb{
 
 div.spiderweb.show {
 	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
 	
 }
 
@@ -363,6 +402,8 @@ div.logo1 {
 
 div.logo1.show {
 	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
 }
 
 div.trafficsign {
@@ -372,6 +413,8 @@ div.trafficsign {
 
 div.trafficsign.show {
 	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
 }
 
 div.famouslogo {
@@ -381,4 +424,41 @@ div.famouslogo {
 
 div.famouslogo.show {
 	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
 }
+
+
+div.mapsymbols {
+	display: none;
+
+}
+
+div.mapsymbols.show {
+	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
+}
+
+div.purposelogo {
+	display: none;
+
+}
+
+div.purposelogo.show {
+	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
+}
+
+div.applelogobutton {
+	display: none;
+
+}
+
+div.applelogobutton.show {
+	display:inline-block;
+	margin-bottom: 200px;
+	border:3px solid rgb(0, 0, 0);
+}
+

@@ -76,18 +76,40 @@ $( document ).ready(function() {
   });
 
   $('.logo1button').click(function() {
-    $('logo1').addClass('show');
-  
+    $('.logo1').addClass('show');
+    $('.purposelogobutton').addClass('show');
+    $(this).removeClass('show');
+
 }); 
 
   $('.trafficsignbutton').click(function() {
-    $('trafficsign').addClass('show');
+    $('.trafficsign').addClass('show');
+    $('.mapsymbolsbutton').addClass('show');
+    $(this).removeClass('show');
 
 }); 
 
+  $('.famouslogobutton').click(function() {
+    $('.famouslogo').addClass('show');
+    $(this).removeClass('show');
 
-$('.famouslogobutton').click(function() {
-  $('famouslogo').addClass('show');
+}); 
+
+  $('.mapsymbolsbutton').click(function() {
+    $('.mapsymbols').addClass('show');
+    $(this).removeClass('show');
+
+}); 
+
+$('.purposelogobutton').click(function() {
+  $('.purposelogo').addClass('show');
+  $(this).removeClass('show');
+
+}); 
+
+$('.applelogobutton').click(function() {
+  $('.applelogo').addClass('show');
+  $(this).removeClass('show');
 
 }); 
 
