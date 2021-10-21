@@ -104,6 +104,7 @@ $( document ).ready(function() {
 $('.purposelogobutton').click(function() {
   $('.purposelogo').addClass('show');
   $(this).removeClass('show');
+  $('.applelogobutton').addClass('show');
 
 }); 
 
