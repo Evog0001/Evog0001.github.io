@@ -117,6 +117,10 @@ $('.applelogobutton').click(function() {
 
 });
 
+/* Images */
+
+
+
 
 /* Background Animation */
 
