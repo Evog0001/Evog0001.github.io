@@ -397,7 +397,7 @@ a {
 /* Images */
 
 .images {
-	display: flex
+	flex-grow: 4
 }
 
 div.spiderwebpic {
