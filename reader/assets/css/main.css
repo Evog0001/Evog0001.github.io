@@ -397,8 +397,49 @@ a {
 /* Images */
 
 div.images {
+	width:100%;
+	height:100%;
+}
+
+div.spiderwebpic {
 	display:none;
 }
+
+div.applelogopic {
+	display:none;
+}
+
+div.logo1pic {
+	display:none;
+
+}
+
+div.trafficsignpic{
+	display:none;
+
+}
+
+div.famouslogopic {
+	display:none;
+
+}
+
+
+div.mapsymbolspic {
+	display:none;
+
+}
+
+div.purposelogopic {
+	display:none;
+
+}
+
+div.applelogopic {
+	display:none;
+
+}
+
 
 
 /* Text Visible and Invisible */
