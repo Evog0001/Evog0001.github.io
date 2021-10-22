@@ -405,28 +405,61 @@ div.spiderwebpic {
 	display:none;
 }
 
+div.spiderwebpic.show {
+	display:inline-block;
+
+}
+
+
 div.applelogopic {
 	display:none;
 }
+
+div.applelogopic.show {
+	display:inline-block;
+
+}
+
 
 div.logo1pic {
 	display:none;
 
 }
 
-div.trafficsignpic{
+div.logo1pic.show {
+	display:inline-block;
+
+}
+
+
+div.trafficsignpic {
 	display:none;
 
 }
+
+div.trafficsignpic.show {
+	display:inline-block;
+
+}
+
 
 div.famouslogopic {
 	display:none;
 
 }
 
+div.famouslogopic.show {
+	display:inline-block;
+
+}
 
 div.mapsymbolspic {
 	display:none;
+
+}
+
+div.mapsymbolspic.show {
+	display:inline-block;
 
 }
 
@@ -435,11 +468,20 @@ div.purposelogopic {
 
 }
 
+div.purposelogopic.show {
+	display:inline-block;
+
+}
+
 div.applelogopic {
 	display:none;
 
 }
 
+div.applelogopic.show {
+	display:inline-block;
+
+}
 
 
 /* Text Visible and Invisible */

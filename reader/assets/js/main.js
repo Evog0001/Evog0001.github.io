@@ -72,6 +72,8 @@ $( document ).ready(function() {
                                       $('.trafficsignbutton').addClass('show');
                                       $('.famouslogobutton').addClass('show');
                                       $('.date8').removeClass('show');
+                                      $('.spiderwebpic').addClass('show');
+
 
   });
 
@@ -79,6 +81,8 @@ $( document ).ready(function() {
     $('.logo1').addClass('show');
     $('.purposelogobutton').addClass('show');
     $(this).removeClass('show');
+    $('.logo1pic').addClass('show');
+
 
 }); 
 
@@ -86,18 +90,24 @@ $( document ).ready(function() {
     $('.trafficsign').addClass('show');
     $('.mapsymbolsbutton').addClass('show');
     $(this).removeClass('show');
+    $('.trafficsignpic').addClass('show');
+
 
 }); 
 
   $('.famouslogobutton').click(function() {
     $('.famouslogo').addClass('show');
     $(this).removeClass('show');
+    $('.famouslogopic').addClass('show');
+
 
 }); 
 
   $('.mapsymbolsbutton').click(function() {
     $('.mapsymbols').addClass('show');
     $(this).removeClass('show');
+    $('.mapsymbolspic').addClass('show');
+
 
 }); 
 
@@ -105,12 +115,18 @@ $('.purposelogobutton').click(function() {
   $('.purposelogo').addClass('show');
   $(this).removeClass('show');
   $('.applelogobutton').addClass('show');
+  $('.purposelogopic').addClass('show');
+
 
 }); 
 
 $('.applelogobutton').click(function() {
   $('.applelogo').addClass('show');
   $(this).removeClass('show');
+  $('.applelogo').addClass('show');
+  $('.applelogopic').addClass('show');
+
+
 
 }); 
 
