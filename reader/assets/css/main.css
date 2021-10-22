@@ -26,7 +26,7 @@ body {
 
 
 a {
-	color:purple;
+	color:rgb(194, 161, 90);
 	font: size 40px;
 }
 
@@ -45,7 +45,9 @@ a {
 }
 
 .endmatter {
-font: size 16px;
+	margin-top: 50px;
+	font-size: 2vw;
+	text-align: center;
 
 }
 
@@ -129,15 +131,17 @@ font: size 16px;
   div.link {
 	padding: 50px;
 	text-overflow: scolling;
-
 	
-
   }
 
   /* Buttons */
 
   div.when {
 	margin-left: 200px;
+	text-align: center;
+	margin-top: 100px;
+	text-align: center;
+
 	
 	}
 	
@@ -161,6 +165,7 @@ font: size 16px;
 		cursor:pointer;
 		text-decoration:underline;
 		display:inline-block;
+		margin-top: 200px;	
 	}
 	 
 	.date2 {
@@ -181,6 +186,8 @@ font: size 16px;
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
+		margin-top:250px;
+		margin-left:150px;
 	}
 	
 	.date4 {
@@ -192,6 +199,9 @@ font: size 16px;
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
+		margin-top:350px;
+		margin-left:200px;
+
 	
 	}
 	
@@ -204,7 +214,8 @@ font: size 16px;
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-	
+		margin-top:450px;
+		margin-left:250px;
 	}
 	
 	.date6 {
@@ -216,7 +227,8 @@ font: size 16px;
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-	
+		margin-top:550px;
+		margin-left:300px;
 	}
 	
 	.date7 {
@@ -228,7 +240,8 @@ font: size 16px;
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-	
+		margin-top:650px;
+		margin-left:350px;
 	}
 	
 	.date8 {
@@ -240,6 +253,8 @@ font: size 16px;
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
+		margin-top:750px;
+		margin-left:400px;
 	
 	}
 	
