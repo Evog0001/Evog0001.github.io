@@ -151,6 +151,19 @@ a {
 	
 	}
 
+	div.when:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 	.when.hide {
 		display:none;
 	
@@ -167,6 +180,19 @@ a {
 		display:inline-block;
 		margin-top: 200px;	
 	}
+
+	div.date1.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
 	 
 	.date2 {
 		display:none;
@@ -178,6 +204,20 @@ a {
 		text-decoration:underline;
 	}
 	
+	div.date2.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
 	.date3 {
 		display:none;
 	}
@@ -190,6 +230,20 @@ a {
 		margin-left:150px;
 	}
 	
+	div.date3.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
 	.date4 {
 		display: none;
 	
@@ -205,6 +259,20 @@ a {
 	
 	}
 	
+	div.date4.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
 	.date5 {
 		display: none;
 	
@@ -218,6 +286,20 @@ a {
 		margin-left:250px;
 	}
 	
+	div.date5.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
 	.date6 {
 		display: none;
 	
@@ -231,6 +313,19 @@ a {
 		margin-left:300px;
 	}
 	
+	div.date6.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 	.date7 {
 		display: none;
 	
@@ -244,6 +339,19 @@ a {
 		margin-left:350px;
 	}
 	
+	div.date7.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 	.date8 {
 		display: none;
 	
@@ -258,43 +366,59 @@ a {
 	
 	}
 	
+	div.date8:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 	div.stardates {
 		margin-left: 250px;
 	
 	}
 	
-	.star2link {
-		display:none
-	}
-	
-	.star2link.show {
-		display:inline-block;
-		cursor:pointer;
-		text-decoration:underline;
-		width: 50px;
-		height: 50px;
-		background-color:black;
-		color:black;
-		border-radius: 75px;
-		-webkit-border-radius: 75px;
-		-moz-border-radius: 75px;
-		border:3px solid black;
-		text-align: center;
-		margin-left: 260px;
-	}
-	
-	div.star2link.show:hover {
-	
-			background-color:red;
-	
-	}
-	
-/*  Buttons  */
+/*  Buttons + Animation */
 
 	div.buttons {
-		margin-left: 250px;
+		text-align:center;
+		padding-top: 30px;
 
 	}
+	  
+
+	  @-webkit-keyframes pulsing {
+		to {
+		  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+		}
+	  }
+	  
+	  @-moz-keyframes pulsing {
+		to {
+		  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+		}
+	  }
+	  
+	  @-ms-keyframes pulsing {
+		to {
+		  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+		}
+	  }
+	  
+	  @keyframes pulsing {
+		to {
+		  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+		}
+	  }
+	  
+/*  Buttons  */
+
 
 	.spiderbutton {
 		display: none;
@@ -308,6 +432,19 @@ a {
 	
 	}
 	
+	div.spiderbutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 	.logo1button {
 		display: none;
 	
@@ -320,6 +457,21 @@ a {
 	
 	}
 	
+	div.logo1button.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
+
 	.trafficsignbutton {
 		display: none;
 	
@@ -332,6 +484,20 @@ a {
 	
 	}
 	
+	div.trafficsignbutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
 	.famouslogobutton {
 		display: none;
 	
@@ -343,6 +509,19 @@ a {
 		text-decoration:underline;
 	
 	}
+
+	div.famouslogobutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
 
 	.logodesignbutton {
 		display: none;
@@ -356,6 +535,20 @@ a {
 	
 	}
 
+	div.logodesignbutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
 	.mapsymbolsbutton {
 		display: none;
 	}
@@ -367,6 +560,20 @@ a {
 		text-decoration:underline;
 	
 	}
+
+	div.mapsymbolsbutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 
 	.purposelogobutton {
 		display: none;
@@ -381,23 +588,53 @@ a {
 	}
 
 
-	.applelogo {
+	div.purposelogobutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
+
+
+	.applelogobutton {
 		display: none;
 	}
 
 
-	.applelogo.show {
+	.applelogobutton.show {
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
 	
 	}
+
+
+	div.applelogobutton.show:hover {
+		-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+		font-weight: normal;
+		text-decoration: none !important;
+		color: rgb(194, 161, 90);
+		transition: all 300ms ease-in-out;
+
+
+	  }
+
 	
 	
 /* Images */
 
 .images {
-	flex-grow: 4
+	flex-grow: 1
 }
 
 div.spiderwebpic {
@@ -553,12 +790,12 @@ div.purposelogo.show {
 	border:3px solid rgb(0, 0, 0);
 }
 
-div.applelogobutton {
+div.applelogo {
 	display: none;
 
 }
 
-div.applelogobutton.show {
+div.applelogo.show {
 	display:inline-block;
 	margin-bottom: 200px;
 	border:3px solid rgb(0, 0, 0);
