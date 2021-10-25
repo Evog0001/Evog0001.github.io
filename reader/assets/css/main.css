@@ -633,8 +633,18 @@ a {
 	
 /* Images */
 
-.images {
-	flex-grow: 1
+
+.pictures {
+	width: auto;
+	height: 10vw;
+	transition:transform 0.25s ease;
+	margin-left: 200px;
+
+}
+
+.pictures:hover {
+    -webkit-transform:scale(2);
+    transform:scale(2);
 }
 
 div.spiderwebpic {
@@ -643,7 +653,7 @@ div.spiderwebpic {
 
 div.spiderwebpic.show {
 	display:inline-block;
-
+	
 }
 
 

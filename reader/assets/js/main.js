@@ -30,40 +30,40 @@ $( document ).ready(function() {
   });
       $('.date1').click(function() {
           $('.date2').addClass('show');
-          $('.date1').removeClass('show');
+          $(this).removeClass('show');
   
 
   });
 
           $('.date2').click(function() {
               $('.date3').addClass('show');
-              $('.date2').removeClass('show');
+              $(this).removeClass('show');
   });
 
 
               $('.date3').click(function() {
                      $('.date4').addClass('show');
-                     $('.date3').removeClass('show');
+                     $(this).removeClass('show');
 
   });
                   $('.date4').click(function() {
                       $('.date5').addClass('show');
-                      $('.date4').removeClass('show');
+                      $(this).removeClass('show');
 
   });
                       $('.date5').click(function() {
                           $('.date6').addClass('show');
-                          $('.date5').removeClass('show');
+                          $(this).removeClass('show');
 
   });
                           $('.date6').click(function() {
                               $('.date7').addClass('show');
-                              $('.date6').removeClass('show');
+                              $(this).removeClass('show');
 
   });
                               $('.date7').click(function() {
                                   $('.date8').addClass('show');
-                                  $('.date7').removeClass('show');
+                                  $(this).removeClass('show');
 
   });
                                   $('.date8').click(function() {
@@ -71,8 +71,9 @@ $( document ).ready(function() {
                                       $('.logo1button').addClass('show');
                                       $('.trafficsignbutton').addClass('show');
                                       $('.famouslogobutton').addClass('show');
-                                      $('.date8').removeClass('show');
+                                      $(this).removeClass('show');
                                       $('.spiderwebpic').addClass('show');
+                                      $('.spiderwebbutton').addClass('show');
 
 
   });
@@ -80,51 +81,92 @@ $( document ).ready(function() {
   $('.logo1button').click(function() {
     $('.logo1').addClass('show');
     $('.purposelogobutton').addClass('show');
-    $(this).removeClass('show');
     $('.logo1pic').addClass('show');
+    $('.spiderwebpic').removeClass('show');
+    $('.trafficsignpic').removeClass('show');
+    $('.applelogopic').removeClass('show');
+    $('.famouslogopic').removeClass('show');
+    $('.mapsymbolspic').removeClass('show');
+    $('.purposelogopic').removeClass('show');
+  
 
 
+}); 
+
+$('.spiderbutton').click(function() {
+  $('.spiderwebpic').addClass('show');
+  $('.logo1pic').removeClass('show');
+  $('.trafficsignpic').removeClass('show');
+  $('.applelogopic').removeClass('show');
+  $('.famouslogopic').removeClass('show');
+  $('.mapsymbolspic').removeClass('show');
+  $('.purposelogopic').removeClass('show');
+
+  
 }); 
 
   $('.trafficsignbutton').click(function() {
     $('.trafficsign').addClass('show');
     $('.mapsymbolsbutton').addClass('show');
-    $(this).removeClass('show');
     $('.trafficsignpic').addClass('show');
+    $('.logo1pic').removeClass('show');
+    $('.spiderwebpic').removeClass('show');
+    $('.applelogopic').removeClass('show');
+    $('.famouslogopic').removeClass('show');
+    $('.mapsymbolspic').removeClass('show');
+    $('.purposelogopic').removeClass('show');
 
 
 }); 
 
   $('.famouslogobutton').click(function() {
     $('.famouslogo').addClass('show');
-    $(this).removeClass('show');
     $('.famouslogopic').addClass('show');
+    $('.trafficsignpic').removeClass('show');
+    $('.logo1pic').removeClass('show');
+    $('.spiderwebpic').removeClass('show');
+    $('.applelogopic').removeClass('show');
+    $('.mapsymbolspic').removeClass('show');
+    $('.purposelogopic').removeClass('show');
 
 
 }); 
 
   $('.mapsymbolsbutton').click(function() {
     $('.mapsymbols').addClass('show');
-    $(this).removeClass('show');
     $('.mapsymbolspic').addClass('show');
+    $('.famouslogopic').removeClass('show');
+    $('.trafficsignpic').removeClass('show');
+    $('.logo1pic').removeClass('show');
+    $('.spiderwebpic').removeClass('show');
+    $('.applelogopic').removeClass('show');
+    $('.purposelogopic').removeClass('show');
 
 
 }); 
 
 $('.purposelogobutton').click(function() {
   $('.purposelogo').addClass('show');
-  $(this).removeClass('show');
-  $('.applelogobutton').addClass('show');
   $('.purposelogopic').addClass('show');
-
+  $('.applelogobutton').addClass('show');
+  $('.famouslogopic').removeClass('show');
+  $('.trafficsignpic').removeClass('show');
+  $('.logo1pic').removeClass('show');
+  $('.spiderwebpic').removeClass('show');
+  $('.applelogopic').removeClass('show');
 
 }); 
 
 $('.applelogobutton').click(function() {
   $('.applelogo').addClass('show');
-  $(this).removeClass('show');
   $('.applelogo').addClass('show');
   $('.applelogopic').addClass('show');
+  $('.applelogobutton').removeClass('show');
+  $('.purposelogopic').removeClass('show');
+  $('.famouslogopic').removeClass('show');
+  $('.trafficsignpic').removeClass('show');
+  $('.logo1pic').removeClass('show');
+  $('.spiderwebpic').removeClass('show');
 
 
 
