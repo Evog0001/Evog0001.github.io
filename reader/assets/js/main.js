@@ -154,6 +154,7 @@ $('.purposelogobutton').click(function() {
   $('.logo1pic').removeClass('show');
   $('.spiderwebpic').removeClass('show');
   $('.applelogopic').removeClass('show');
+  $('.mapsymbolspic').removeClass('show');
 
 }); 
 
@@ -165,6 +166,7 @@ $('.applelogobutton').click(function() {
   $('.trafficsignpic').removeClass('show');
   $('.logo1pic').removeClass('show');
   $('.spiderwebpic').removeClass('show');
+  $('.mapsymbolspic').removeClass('show');
 
 
 
