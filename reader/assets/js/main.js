@@ -159,9 +159,7 @@ $('.purposelogobutton').click(function() {
 
 $('.applelogobutton').click(function() {
   $('.applelogo').addClass('show');
-  $('.applelogo').addClass('show');
   $('.applelogopic').addClass('show');
-  $('.applelogobutton').removeClass('show');
   $('.purposelogopic').removeClass('show');
   $('.famouslogopic').removeClass('show');
   $('.trafficsignpic').removeClass('show');
