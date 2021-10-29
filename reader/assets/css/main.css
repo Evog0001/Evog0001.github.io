@@ -6,18 +6,18 @@ body {
 	background-color: aliceblue;
 	background-size: var(--mouse-y) var(--mouse-y);
 	background-image: radial-gradient(
-		#F2F3F4 var(--mouse-x),
+		#F2F3F4 15%,
 		transparent),
 	linear-gradient(
 	45deg,
-	transparent 48%, #D3D3D3 48%,
+	transparent var(--mouse-x), #D3D3D3 var(--mouse-x),
 	#a8a8a8 52%, transparent 52%
 	),
 	
 	linear-gradient(
 		135deg,
 		transparent 48%, #D3D3D3 48%,
-		#a8a8a8 52%, transparent 52%
+		#a8a8a8 var(--mouse-x), transparent var(--mouse-x)
 		);
 	
 
