@@ -182,9 +182,16 @@ $('.applelogobutton').click(function() {
 
 /* Background Animation */
 
-const el = document.querySelector("#body");
-
-el.addEventListener("mousemove", (e) => {
-  el.style.backgroundPositionX = -e.offsetX + "px";
-  el.style.backgroundPositionY = -e.offsetY + "px";
+const root = document.documentElement;
+ 
+document.addEventListener('mousemove', evt => {
+    let x = evt.clientX / innerWidth;
+    let xCSS = (x * 100) + '%';	
+    let y = evt.clientY / innerHeight;
+    let yCSS = (y * 100) + 100 + 'px';
+	let xYCSS = (x + y) * 50 + '%';	
+	
+ 
+    root.style.setProperty('--mouse-x', xYCSS);
+    // root.style.setProperty('--mouse-y', yCSS);
 });

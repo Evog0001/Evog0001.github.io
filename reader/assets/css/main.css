@@ -1,8 +1,10 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	height: 100vh;
+	width: 100vw;
 	background-color: aliceblue;
-	background-size: 100px 100px;
+	background-size: var(--mouse-y) var(--mouse-y);
 	background-image: radial-gradient(
 		#F2F3F4 15%,
 		transparent),
@@ -23,7 +25,10 @@ body {
 
 /*animating background*/
 
-
+:root {
+	--mouse-x: 15%;
+	--mouse-y: 100px;	
+  }
 
 a {
 	color:rgb(194, 161, 90);
