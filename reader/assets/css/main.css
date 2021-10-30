@@ -19,8 +19,6 @@ body {
 		transparent 48%, #D3D3D3 48%,
 		#a8a8a8 var(--mouse-x), transparent var(--mouse-x)
 		);
-	
-
 }
 
 /*animating background*/
@@ -70,9 +68,6 @@ a {
 	text-indent:32px;
 
 }
-
-/* Collum Controls */
-
 
 
 /* Menu Button */
