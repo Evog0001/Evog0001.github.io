@@ -253,7 +253,7 @@ a {
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-		margin-top:350px;
+		margin-top:300px;
 		margin-left:200px;
 
 	
@@ -282,8 +282,8 @@ a {
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-		margin-top:450px;
-		margin-left:250px;
+		margin-top:350px;
+		margin-left:200px;
 	}
 	
 	div.date5.show:hover {
@@ -309,8 +309,8 @@ a {
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-		margin-top:550px;
-		margin-left:300px;
+		margin-top:4000px;
+		margin-left:200px;
 	}
 	
 	div.date6.show:hover {
@@ -335,8 +335,8 @@ a {
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-		margin-top:650px;
-		margin-left:350px;
+		margin-top:400px;
+		margin-left:200px;
 	}
 	
 	div.date7.show:hover {
@@ -361,8 +361,8 @@ a {
 		display:inline-block;
 		cursor:pointer;
 		text-decoration:underline;
-		margin-top:750px;
-		margin-left:400px;
+		margin-top:450px;
+		margin-left:250px;
 	
 	}
 	
