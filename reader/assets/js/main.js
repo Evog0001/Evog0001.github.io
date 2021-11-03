@@ -73,7 +73,8 @@ $( document ).ready(function() {
                                       $('.famouslogobutton').addClass('show');
                                       $(this).removeClass('show');
                                       $('.spiderwebpic').addClass('show');
-                                      $('.spiderwebbutton').addClass('show');
+                                      $('.spiderbutton').addClass('show');
+                                      
 
 
   });
