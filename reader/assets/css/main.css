@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-size: 30px;
 	height: 100vh;
 	width: 100vw;
 	background-color: aliceblue;
@@ -129,6 +129,7 @@ a {
   /* Menu Text*/
 
   div.link {
+	  font-size: 18px;
 	padding: 50px;
 	text-overflow: scolling;
 	
@@ -160,7 +161,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -190,7 +191,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -213,7 +214,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -239,7 +240,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -268,7 +269,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -295,7 +296,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -322,7 +323,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -348,7 +349,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -375,7 +376,7 @@ a {
 		animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		font-weight: normal;
 		text-decoration: none !important;
-		color: rgb(95, 79, 43);
+		color: rgb(179, 134, 29);
 		transition: all 300ms ease-in-out;
 
 
@@ -800,11 +801,16 @@ div.applelogo.show {
 	padding:20px;
 }
 
-/* Headers */
+/* Headers + Subheaders */
 
 div.headers {
-	font-size: 40px;
+	font-size: 24px;
 	font-weight: bolder;
 	text-decoration:underline;
 
+}
+
+div.subheaders {
+	font-size: 20px;
+	font-weight: bold;
 }
